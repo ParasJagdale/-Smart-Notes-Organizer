@@ -118,16 +118,6 @@ smart-notes-organizer/
     └── DEPLOYMENT.md          # Deployment guide
 ```
 
-## 📸 Screenshots
-
-### Upload Interface
-![Upload Interface](screenshots/upload-interface.png)
-
-### Processing Demo
-![Processing Demo](screenshots/processing-demo.png)
-
-### Results Display
-![Results Display](screenshots/results-display.png)
 
 ## 🔒 Privacy & Security
 
