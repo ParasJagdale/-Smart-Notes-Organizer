@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Notes Organizer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/2.1.5/tesseract.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 Smart Notes Organizer</h1>
+            <p>Upload your handwritten notes, PDFs, or record audio to extract and organize content intelligently</p>
+        </div>
+
+        <div class="main-content">
+            <div class="upload-section">
+                <div class="upload-area">
+                    <div class="upload-icon">📝</div>
+                    <h3>Upload Your Notes</h3>
+                    <p>Support for images, PDFs, and audio files</p>
+                    
+                    <input type="file" id="fileInput" class="file-input" accept="image/*,audio/*,.pdf" multiple>
+                    <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
+                        Choose Files
+                    </button>
+                    
+                    <div class="audio-controls">
+                        <button id="recordBtn" class="record-btn">🎤 Start Recording</button>
+                        <p id="recordingStatus" style="margin-top: 10px; color: #666;"></p>
+                    </div>
+                </div>
+
+                <div id="filePreview" style="margin-top: 20px;"></div>
+            </div>
+
+            <div class="results-section">
+                <h3>📋 Organized Notes</h3>
+                
+                <div id="processingIndicator" class="processing-indicator">
+                    <div class="spinner"></div>
+                    <p>Processing your notes...</p>
+                </div>
+
+                <div id="results"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
