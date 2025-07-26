@@ -190,8 +190,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 🐛 **Bug Reports**: [Create an Issue](https://github.com/yourusername/smart-notes-organizer/issues)
-- 💡 **Feature Requests**: [Start a Discussion](https://github.com/yourusername/smart-notes-organizer/discussions)
 - 📧 **Email**: your.email@example.com
 
 ## ⭐ Show Your Support
