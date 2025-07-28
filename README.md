@@ -39,7 +39,7 @@
 
 ### Option 2: Clone Repository
 ```bash
-git clone https://github.com/yourusername/smart-notes-organizer.git
+[git clone https://github.com/ParasJagdale/-Smart-Notes-Organizer.git]
 cd smart-notes-organizer
 ```
 
